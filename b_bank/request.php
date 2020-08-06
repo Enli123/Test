@@ -179,7 +179,17 @@ if (isset($_GET['Reject'])) {
                                             <td><?php echo $row['donor_name']; ?></td>
                                             <td><?php echo $row['city']; ?></td>
                                             <td><?php echo date('d-m-Y', strtotime($row['created_at'])); ?></td>
-                                            <td><?php echo date('d-m-Y', strtotime($row['updated_at'])); ?></td>
+                                            <td>
+
+                                                <?php
+                                                $date = date('d-m-Y', strtotime($row['updated_at']));
+                                                if ($date == "01-01-1970") {
+                                                    echo "NA";
+                                                } else {
+                                                    echo $date;
+                                                }
+                                                ?>
+                                            </td>
 
                                             <td>
                                                 <?php if ($row['is_approved'] == 0) { ?>

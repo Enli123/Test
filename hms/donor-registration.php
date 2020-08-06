@@ -77,7 +77,7 @@
 
                     <div class="form-group">
 								<span class="input-icon">
-									<input type="text" class="form-control" name="aadhaar" placeholder="Id No."
+									<input type="text" class="form-control" name="aadhaar" placeholder="Citizen Id"
                                            required>
 									<i class="fa fa-user"></i> </span>
                     </div>
