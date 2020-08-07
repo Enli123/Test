@@ -92,7 +92,7 @@
                 <div class="text list_1_of_2">
                     <h3>Admin Login</h3>
 
-                    <div class="button"><span><a href="b_bank/index.php">Click Here</a></span></div>
+                    <div class="button"><span><a href="admin/index.php">Click Here</a></span></div>
                 </div>
             </div>
         </div>
